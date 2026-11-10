@@ -1,0 +1,300 @@
+{"id":179320,"claim":"Osamu Tezuka's mother had to erase pages in his notebook.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Osamu Tezuka",6]]]}
+{"id":202738,"claim":"The Chaperone (film) was directed by Michael Bay only.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["The Chaperone (film)",0]],[["The Chaperone (film)",0]]]}
+{"id":214267,"claim":"DJ Quik was born on January 18th, 1970 in a taxi cab.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":22255,"claim":"Aparshakti Khurana appeared in Dangal.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Aparshakti Khurana",2]]]}
+{"id":78179,"claim":"Sledgehammer was first performed live in Canada.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Sledgehammer (Fifth Harmony song)",11],["2014 MTV Europe Music Awards",0]]]}
+{"id":58429,"claim":"Johnny Van Zant is a guitarist.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":4726,"claim":"Henri Kontinen is currently ranked highly for doubles in tennis.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Henri Kontinen",5]]]}
+{"id":56262,"claim":"Taarak Mehta Ka Ooltah Chashmah is from France.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Taarak Mehta Ka Ooltah Chashmah",0]]]}
+{"id":159713,"claim":"Edgar Wright is the screenwriter of Twilight.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":204654,"claim":"Rio's sequel was released on a date during the 21st century.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Rio (2011 film)",0]],[["Rio (2011 film)",15]]]}
+{"id":130158,"claim":"Soul Food was manufactured in 1930.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Soul Food (film)",0]]]}
+{"id":219203,"claim":"Species distribution can be understood through factors like river capture.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":62491,"claim":"Battle of the Bastards had a viewership of over a million in its initial broadcast.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Battle of the Bastards",15]]]}
+{"id":110645,"claim":"The Saw franchise lost over $873 million.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Saw (franchise)",8],["Saw (franchise)",0]]]}
+{"id":156928,"claim":"The 2003 NCAA Division I Men's Basketball Tournament involved the Spanish Armada.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":54015,"claim":"Annette Badland played Doomsday Dora in The Sparticle Mystery.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Annette Badland",1]]]}
+{"id":84836,"claim":"Terry Crews only played on the Boston Red Sox.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Terry Crews",9]]]}
+{"id":96,"claim":"General Motors had only one automotive-component.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":48416,"claim":"September was the month the American actor that plays Chumlee was born on.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Chumlee",0]]]}
+{"id":177188,"claim":"Dub music is a genre of film.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Dub music",0]]]}
+{"id":175446,"claim":"Death Note is a Japanese television series based on a manga series published by Tsugumi Ohba.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":28257,"claim":"Croatia has a government.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Croatia",29]],[["Croatia",31]]]}
+{"id":191662,"claim":"Ang Lee was born October 2, 1954.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Ang Lee",0]]]}
+{"id":103220,"claim":"Topman is an independent company.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":203998,"claim":"Glee.com was launched by Community Connect Inc. in 2007.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Glee.com",1]]]}
+{"id":154190,"claim":"Grease came out in 1654.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Grease (film)",0]]]}
+{"id":146740,"claim":"Dilwale Dulhania Le Jayenge began filming on September 10, 1994.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":20563,"claim":"Aestheticism concerns itself with fine art and other things.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Aestheticism",0]],[["Aestheticism",1]],[["Aestheticism",0]],[["Aestheticism",0]],[["Aestheticism",0]]]}
+{"id":72593,"claim":"Jack Dylan Grazer has spent the entirety of his life in Florida.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Jack Dylan Grazer",0]]]}
+{"id":7244,"claim":"Creedence Clearwater Revival was informally abbreviated to CCR in 1970.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":189450,"claim":"Yandex operates in Europe.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Yandex",9]]]}
+{"id":189873,"claim":"Augustus Prew's father was a teacher.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Augustus Prew",5]]]}
+{"id":42948,"claim":"L.A. Reid has served as the CEO of an American record label owned by Christopher Hitchens.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":204556,"claim":"Commodore is a naval rank.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Commodore (rank)",0]],[["Commodore (rank)",0]]]}
+{"id":97937,"claim":"Watchmen is a film set in the future.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Watchmen (film)",0],["Watchmen (film)",2]]]}
+{"id":113558,"claim":"Yugoslavia is also written Rossiya.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":151104,"claim":"Veep is a show on television.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Veep",0]]]}
+{"id":214268,"claim":"DJ Quik is only a Jazz musician.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["DJ Quik",0]]]}
+{"id":227107,"claim":"Blank Space is on a top 10 list south of the country Austria.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":16701,"claim":"Lucy Hale was in American Juniors.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Lucy Hale",2]]]}
+{"id":216399,"claim":"Homer Hickman wrote the Josh Thurlow science fiction novels.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Homer Hickam",2]]]}
+{"id":98346,"claim":"Annie Lennox was named valedictorian in high school.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":165670,"claim":"Tom Baker has narrated a type of digital entertainment.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Tom Baker (English actor)",15]]]}
+{"id":22726,"claim":"In Kentucky, the electric chair has been kept in operation except for those whose capital crimes were committed prior to March 31, 1998, and who choose electrocution.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Electric chair",15]],[["Electric chair",19]]]}
+{"id":80720,"claim":"One Flew Over the Cuckoo's Nest was released in the 20th century.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":109461,"claim":"Recovery is a song by Marshall Mathers III.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Recovery (Eminem album)",0],["Eminem",0]]]}
+{"id":74588,"claim":"Two and a Half Men originally aired on NBC.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Two and a Half Men",0]]]}
+{"id":22945,"claim":"Omar Khadr received a verdict from a jury.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":6079,"claim":"Soul Food was produced by Kenneth Edmonds.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Soul Food (film)",0]]]}
+{"id":13138,"claim":"Robinson Crusoe on Mars was only ever a book.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Robinson Crusoe on Mars",0]]]}
+{"id":81160,"claim":"Fred Seibert has produced live action horror programs.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":5600,"claim":"Kelly Preston starred in The Cat in the Hat.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Kelly Preston",3]]]}
+{"id":225865,"claim":"Revolver only topped the UK Albums Chart for two weeks.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Revolver (Beatles album)",16]]]}
+{"id":166492,"claim":"Roswell is a TV series that was created in the United States.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":18397,"claim":"Scandal plays rock music.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Scandal (American band)",0]],[["Scandal (American band)",1],["The Warrior (song)",0]],[["Scandal (American band)",2],["Goodbye to You (Scandal song)",0]]]}
+{"id":95754,"claim":"Boeing 787 Dreamliner is a steamship.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Boeing 787 Dreamliner",0]]]}
+{"id":30585,"claim":"Humphrey Bogart was watching many Classic American cinema in 1999.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":47384,"claim":"Chile is in the western hemisphere.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Chile",0],["South America",0]]]}
+{"id":116315,"claim":"B. R. Ambedkar was alive in 1990.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["B. R. Ambedkar",0]]]}
+{"id":33213,"claim":"Highway to Heaven ended its initial run in 1989.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":51066,"claim":"Samsung went into the electronics industry in the late 1960s.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Samsung",6]]]}
+{"id":84272,"claim":"Mud has a Canadian in its cast.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Mud (2012 film)",1],["Tye Sheridan",0],["Matthew McConaughey",0],["Jacob Lofland",0],["Sam Shepard",0],["Reese Witherspoon",0]]]}
+{"id":204320,"claim":"The Latvian Soviet Socialist Republic is also known as Bob.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":136665,"claim":"House is a Fox prime-time drama.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["House (TV series)",0]]]}
+{"id":25906,"claim":"Antigua and Barbuda was named in honor of Tim Burton.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Antigua and Barbuda",6]],[["Antigua and Barbuda",6]],[["Antigua and Barbuda",6]]]}
+{"id":146176,"claim":"Garden State was at the Prague Film Festival.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":168923,"claim":"The Boeing 767 is used for transatlantic flights.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Boeing 767",19]]]}
+{"id":70208,"claim":"The Cincinnati Kid is a boy.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["The Cincinnati Kid",0]],[["The Cincinnati Kid",6]],[["The Cincinnati Kid",7]],[["The Cincinnati Kid",8]],[["The Cincinnati Kid",0]],[["The Cincinnati Kid",0]],[["The Cincinnati Kid",7]],[["The Cincinnati Kid",6],["Steve McQueen",3]],[["The Cincinnati Kid",8]],[["The Cincinnati Kid",0]]]}
+{"id":26808,"claim":"Antigua and Barbuda was named in April of 1493.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":5004,"claim":"The Crips are a street gang.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Crips",9]]]}
+{"id":157002,"claim":"A Floppy disk is composed of a thin and flexible electronic storage medium.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Floppy disk",0]]]}
+{"id":213934,"claim":"Gray Matter Interactive Studios, Inc. was founded in June, 1994.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":156950,"claim":"Renato Balestra studied for a degree in engineering.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Renato Balestra",3]]]}
+{"id":199428,"claim":"Richard Linklater's cousin plays Mason's sister.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Boyhood (film)",2]]]}
+{"id":157475,"claim":"Meteora is an award-winning album.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":42998,"claim":"Richard Fortus is a Guns N' Roses member.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Richard Fortus",1]]]}
+{"id":95456,"claim":"Robinson Crusoe on Mars was a sitcom.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Robinson Crusoe on Mars",0]]]}
+{"id":215275,"claim":"PBS is a television program actor.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":198532,"claim":"Catherine Hardwicke is a film director.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Catherine Hardwicke",0]]]}
+{"id":70645,"claim":"Jason Bourne was halted in pre-production indefinitely.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Jason Bourne (film)",8]]]}
+{"id":48358,"claim":"Google Search can be used by speaking.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":182274,"claim":"January 7 was the date Saturn Corporation was established.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Saturn Corporation",0]]]}
+{"id":181628,"claim":"Mogadishu is only a country.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Mogadishu",0]]]}
+{"id":49537,"claim":"Georgians arose from a place that was a kingdom in Azerbaijan.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":194780,"claim":"Fortunes of War stars Kenneth Branagh.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Fortunes of War (TV series)",1]],[["Fortunes of War (TV series)",1]]]}
+{"id":139848,"claim":"Angela Bassett is president.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Angela Bassett",0]],[["Angela Bassett",0]]]}
+{"id":190161,"claim":"Oscar de la Hoya was The Ring magazine's top-rated fighter in the world in 1999.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":150905,"claim":"Hedda Gabler's world premiere took place at a theater.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Hedda Gabler",1]]]}
+{"id":114897,"claim":"Penélope Cruz refused to model for L'Oréal.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Penélope Cruz",12]]]}
+{"id":142879,"claim":"A thousand trees have been replanted in Stanley Park.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":108734,"claim":"Manchester by the Sea is a film that was premiered at the Sundance Film Festival.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Manchester by the Sea (film)",4]]]}
+{"id":178172,"claim":"The World Trade Center opened on March 1.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["World Trade Center (1973–2001)",1]]]}
+{"id":161918,"claim":"Alan Shepard enlisted in the US Air Force instead of the Navy.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":47785,"claim":"San Francisco Bay Area contains many airports.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["San Francisco Bay Area",3]]]}
+{"id":129460,"claim":"Awkward Black Girl is a Pakistani comedy web series.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Awkward Black Girl",0]]]}
+{"id":59542,"claim":"Bessie Smith was awarded a gold medal on April 15, 1894.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":118127,"claim":"Scotty Moore was born in 1931.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Scotty Moore",0]]]}
+{"id":50413,"claim":"Anthony Scaramucci is an action figure.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Anthony Scaramucci",0]]]}
+{"id":87421,"claim":"Mount Hood is the fourth highest point in the Cascades.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":165251,"claim":"There are film scores in existence that have been composed by Phillip Glass.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Philip Glass",9]],[["Philip Glass",9]],[["Philip Glass",9]]]}
+{"id":83454,"claim":"Scandinavia does not contain Greenland.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Scandinavia",4]]]}
+{"id":156300,"claim":"Doxycycline may cause headaches.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":63465,"claim":"Pearl Jam is a band.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Pearl Jam",0]],[["Pearl Jam",1]],[["Pearl Jam",2]],[["Pearl Jam",3]],[["Pearl Jam",4]],[["Pearl Jam",7],["Ten (Pearl Jam album)",0]]]}
+{"id":49458,"claim":"B. R. Ambedkar was born in 1895.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["B. R. Ambedkar",0]]]}
+{"id":177967,"claim":"It is customary to wear aprons while Trick-or-Treating.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":227122,"claim":"New Orleans Pelicans compete the southwest Division of the NBA's Western Conference.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["New Orleans Pelicans",1]]]}
+{"id":78652,"claim":"One Flew Over the Cuckoo's Nest came out in 1930.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["One Flew Over the Cuckoo's Nest (film)",0]],[["One Flew Over the Cuckoo's Nest (film)",0]],[["One Flew Over the Cuckoo's Nest (film)",1],["Brad Dourif",0],["Jack Nicholson",0],["Louise Fletcher",0],["Will Sampson",0]],[["One Flew Over the Cuckoo's Nest (film)",0]],[["One Flew Over the Cuckoo's Nest (film)",1],["Jack Nicholson",0]],[["One Flew Over the Cuckoo's Nest (film)",5]],[["One Flew Over the Cuckoo's Nest (film)",0]],[["One Flew Over the Cuckoo's Nest (film)",0]]]}
+{"id":129881,"claim":"The Prowler made his last appearance in The Amazing Spider-Man #78.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":1357,"claim":"Brian Michael Bendis began teaching at the University of Oregon in fall of 2013.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Brian Michael Bendis",12]]]}
+{"id":205646,"claim":"St. Anger is the second studio album by Metallica.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["St. Anger",0]],[["St. Anger",1],["Reload (Metallica album)",0]],[["St. Anger",2]],[["St. Anger",16],["St. Anger (song)",1]]]}
+{"id":72748,"claim":"Terry Crews played in the NFL in 2001.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":211770,"claim":"Brick (film) was written by Rian Johnson.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Brick (film)",0]]]}
+{"id":155173,"claim":"Zac Efron's middle names are Emma and Suzanne.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Zac Efron",0]]]}
+{"id":159705,"claim":"Edgar Wright is from London.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":226445,"claim":"The movie 42 featured Chadwick Boseman.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Chadwick Boseman",1]]]}
+{"id":149622,"claim":"Advertising is an audio form of personal communication.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Advertising",0]]]}
+{"id":212041,"claim":"A Pet expands social relations.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":33377,"claim":"In its opening weekend, Kung Fu Panda made $60.2 million.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Kung Fu Panda",17]]]}
+{"id":82745,"claim":"In the End was the only song released in 2000.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["In the End",1]]]}
+{"id":203388,"claim":"Goosebumps (film) was directed by Rob Letterman in 2002.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":194447,"claim":"The Indiana Pacers were established.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Indiana Pacers",2]]]}
+{"id":206035,"claim":"The Office (US) was filmed in front of a live audience.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["The Office (U.S. TV series)",8]],[["The Office (U.S. TV series)",8]],[["The Office (U.S. TV series)",8]]]}
+{"id":195477,"claim":"William Howard Taft declined offers of rejection from a federal court.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":109728,"claim":"Two and a Half Men starred Angus T. Jones in 2005.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Two and a Half Men",1],["Angus T. Jones",1]]]}
+{"id":161801,"claim":"Planet Hollywood Las Vegas is owned by Leonardo DiCaprio.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Planet Hollywood Las Vegas",1]]]}
+{"id":69857,"claim":"Aphrodite is in Egyptian mythology.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":81847,"claim":"Bad Romance achieved worldwide success.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Bad Romance",12]]]}
+{"id":123285,"claim":"Noah Cyrus was born in 1991.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Noah Cyrus",0]],[["Noah Cyrus",0]]]}
+{"id":201462,"claim":"A dynamic web page can be driven by server-side scripting.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":63444,"claim":"Lost ran from September 22, 2004 to May 23, 2010.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Lost (TV series)",0]]]}
+{"id":161709,"claim":"Multicellular organisms include most animals.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Multicellular organism",3]]]}
+{"id":99509,"claim":"Ned Stark was barely nominated for an award.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":32520,"claim":"The Bengal tiger is from a region.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Bengal tiger",10],["Bengal",0],["Bangladesh",9],["Bangladesh",24]]]}
+{"id":115782,"claim":"The Airbus A380 made its first flight on June 27, 2005.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Airbus A380",3]]]}
+{"id":123282,"claim":"Oscar Isaac appeared in Star Wars: The Clone Wars.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":46627,"claim":"Muscarinic acetylcholine receptors are barely known as mAChRs.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Muscarinic acetylcholine receptor",0]]]}
+{"id":107042,"claim":"Janelle Monáe is only signed to Bad Boys Records.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Janelle Monáe",0]],[["Janelle Monáe",0]],[["Janelle Monáe",0]]]}
+{"id":193544,"claim":"Bala's has directed at least four romantic films.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":212767,"claim":"The undergraduate college of Harvard University became coeducational after its merger with Radcliffe College.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Harvard University",8]]]}
+{"id":72485,"claim":"X-Men: Apocalypse is a TV show.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["X-Men: Apocalypse",0]]]}
+{"id":187548,"claim":"Matthew Vaughn is Russian.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":80516,"claim":"The Danish language has speakers in Spain.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Danish language",1]]]}
+{"id":49125,"claim":"Lou Gehrig received no votes on the Major League Baseball All-Century Team in 1999.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Lou Gehrig",15]],[["Lou Gehrig",15]],[["Lou Gehrig",15]],[["Lou Gehrig",15]],[["Lou Gehrig",15]]]}
+{"id":116437,"claim":"Bruce Shand was awarded a settlement.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":20492,"claim":"Super Bowl XLV was played on February 6, 2011.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Super Bowl XLV",2]],[["Super Bowl XLV",2]],[["Super Bowl XLV",2]],[["Super Bowl XLV",2]],[["Super Bowl XLV",2]]]}
+{"id":142620,"claim":"Tennessee is a producer of grain.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Tennessee",23]]]}
+{"id":133218,"claim":"Fantastic Four (2005 film) was released in a country directly south of Canada.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":18064,"claim":"Colombiana was directed by Olivier Megaton.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Colombiana",0]]]}
+{"id":138500,"claim":"West Virginia only borders Ohio to the southwest.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["West Virginia",1]]]}
+{"id":153706,"claim":"Birmingham is in the ocean.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":94746,"claim":"Lemmy had a distinct gravelly voice that made him known.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Lemmy",2]]]}
+{"id":34195,"claim":"Annie Lennox was named \"The Greatest White Soul Singer Alive\" by VH1.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Annie Lennox",19]]]}
+{"id":136462,"claim":"House is a crime drama.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":19112,"claim":"Justin Chatwin performs as an actor.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Justin Chatwin",0]],[["Justin Chatwin",1]],[["Justin Chatwin",3]],[["Justin Chatwin",7]]]}
+{"id":208924,"claim":"The Monster is an EP.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["The Monster (song)",0]]]}
+{"id":46707,"claim":"Garden State was a delegated selection.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":88868,"claim":"Aleister Crowley was a poet.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Aleister Crowley",0]]]}
+{"id":19194,"claim":"Pulmonary embolism is indicated by high blood oxygen levels.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Pulmonary embolism",3]]]}
+{"id":83258,"claim":"Bhagat Singh was a Gemini.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":83879,"claim":"The Washington Wizards have won four conference titles.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Washington Wizards",12]]]}
+{"id":39811,"claim":"Benjamin Franklin was not born on April 17th, 1790.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Benjamin Franklin",0]]]}
+{"id":76713,"claim":"Parkinson's disease has afflicted Lance Armstrong.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":169032,"claim":"Manmohan Singh was the first Sikh in office in 2009.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Manmohan Singh",1]]]}
+{"id":53663,"claim":"James Jones has not won the Three-Point Contest.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["James Jones (basketball player)",16]]]}
+{"id":24776,"claim":"Underdog was set in the house of Amy Adams.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":59242,"claim":"The Wallace is a work of poetry.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["The Wallace (poem)",0]]]}
+{"id":173665,"claim":"Moesia excludes all of the territory of modern-day Central Serbia.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Moesia",1]],[["Moesia",1]]]}
+{"id":106850,"claim":"Ice-T made a hip-hop club.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":226862,"claim":"Jenna Jameson worked as a stripper and glamor model.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Jenna Jameson",3]]]}
+{"id":55259,"claim":"Elizabeth of York married the queen.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Elizabeth of York",2]]]}
+{"id":7722,"claim":"Michigan is the tenth most hated of the 50 United States.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":8221,"claim":"Ashley Cole is English.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Ashley Cole",0]],[["Ashley Cole",3]],[["Ashley Cole",0]]]}
+{"id":222651,"claim":"A United Kingdom is unassociated with Amma Asante.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["A United Kingdom",0]]]}
+{"id":172475,"claim":"Matteo Renzi was born and raised in Italy.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":202441,"claim":"Tinker Tailor Soldier Spy stars John Hurt.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Tinker Tailor Soldier Spy (film)",2]]]}
+{"id":188148,"claim":"Stephen Moyer refused to ever act in anything.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Stephen Moyer",0]]]}
+{"id":163809,"claim":"Ukrainian Soviet Socialist Republic was in the UN until 1987.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":121817,"claim":"The Premier League Asia Trophy is for football and especially association football.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Premier League Asia Trophy",0]]]}
+{"id":121716,"claim":"Henri Kontinen's male sibling is a retired tennis player.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Henri Kontinen",11]]]}
+{"id":78162,"claim":"Andrew Kevin Walker is American and Irish.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":147696,"claim":"Patrick Swayze and Demi Moore are both featured in Ghost.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Ghost (1990 film)",0]],[["Ghost (1990 film)",4]],[["Ghost (1990 film)",14]]]}
+{"id":165699,"claim":"Randy Jackson turned down working as a judge for American Idol (season 8).","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["American Idol (season 8)",1]],[["American Idol (season 8)",1]]]}
+{"id":172480,"claim":"Matteo Renzi is Jewish.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":25004,"claim":"ASAP Rocky has directed music videos for himself.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["ASAP Rocky",18]]]}
+{"id":25178,"claim":"Chris Kyle died on March 2, 2013.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Chris Kyle",0]],[["Chris Kyle",8]]]}
+{"id":75006,"claim":"Scotty Moore was a recording engineer for Sony.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":94262,"claim":"One Dance was by Drake.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["One Dance",0]],[["One Dance",0]]]}
+{"id":112087,"claim":"South Island is rarely referred to as the \"mainland\" of New Zealand.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["South Island",5]]]}
+{"id":2415,"claim":"The dress inspired revolution.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":14972,"claim":"Leslie Alexander is from the state of New Jersey.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Leslie Alexander (businessman)",1]]]}
+{"id":111213,"claim":"Cleopatre is barely related to Amadis.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Cléopâtre",4]]]}
+{"id":27363,"claim":"Castlevania is an action-platformer which has received numerous video game awards.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":154253,"claim":"Lost was the recipient of hundreds of award nominations.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Lost (TV series)",16]]]}
+{"id":165665,"claim":"Tom Baker is incapable of having any acting roles.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Tom Baker (English actor)",1]],[["Tom Baker (English actor)",10]],[["Tom Baker (English actor)",11]],[["Tom Baker (English actor)",14]],[["Tom Baker (English actor)",15]]]}
+{"id":200286,"claim":"The musical score for Natural Born Killers was heavily revised by Richard Rutowski.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":68188,"claim":"Aleister Crowley was born in 1875.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Aleister Crowley",0]],[["Aleister Crowley",0]],[["Aleister Crowley",0]],[["Aleister Crowley",0]],[["Aleister Crowley",0]],[["Aleister Crowley",0]]]}
+{"id":131495,"claim":"Kuching is in the state of Johor.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Kuching",0]],[["Kuching",2]]]}
+{"id":183414,"claim":"Simi Valley, California, reported a higher per capita gross domestic product than the overall national per capita gross domestic product in 2012.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":175868,"claim":"Chris Mullin played with a team that was based out of Indianapolis.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Chris Mullin (basketball)",11],["Indiana Pacers",0]]]}
+{"id":147045,"claim":"Edmund H. North was a Gemini.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Edmund H. North",0],["Pisces (astrology)",2]]]}
+{"id":23370,"claim":"Adobe Photoshop is part of the Microsoft Systems.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":173509,"claim":"Sancho Panza is a main character in Don Quixote.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Sancho Panza",0]]]}
+{"id":79525,"claim":"The first inauguration of Bill Clinton was held on June 20th, 1993.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["First inauguration of Bill Clinton",0]]]}
+{"id":77817,"claim":"Aaron Burr was a Secretary of State.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":89771,"claim":"Every Tuesday, TV Choice goes on sale.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["TV Choice",1]]]}
+{"id":153361,"claim":"Elizabeth I was the son of Henry VIII.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Elizabeth I of England",0]],[["Elizabeth I of England",4]]]}
+{"id":26163,"claim":"Jenna Jameson has been naked on advertisements in Times Square.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":161905,"claim":"In 1974 Alan Shepard retired from the US Navy.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Alan Shepard",16]]]}
+{"id":4818,"claim":"English people are descended from the Romans.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["English people",6]]]}
+{"id":12397,"claim":"Jimi Hendrix was a military parachutist.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":41441,"claim":"Yvonne Strahovski has worked on movies and TV shows.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Yvonne Strahovski",1],["Yvonne Strahovski",4]]]}
+{"id":188129,"claim":"Stephen Moyer was refused any role in Prince Valiant.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Stephen Moyer",3]]]}
+{"id":104758,"claim":"Personality is affected by the development of political relationships.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":195077,"claim":"Albert S. Ruddy is regarded as a television producer.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Albert S. Ruddy",0]],[["Albert S. Ruddy",0]]]}
+{"id":200045,"claim":"Boxing Helena debuted in 1996.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Boxing Helena",5]]]}
+{"id":27273,"claim":"Key & Peele has been nominated for a Writers Guild Award and an Oscar.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":13395,"claim":"Anushka Sharma won a Filmfare Award.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Anushka Sharma",2]],[["Anushka Sharma",7]]]}
+{"id":41833,"claim":"Tim McGraw has yet to work with Reese Witherspoon.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Tim McGraw",13]]]}
+{"id":152857,"claim":"Python features a dynamic operating system.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":8789,"claim":"Ashton Kutcher is in romantic comedies.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Ashton Kutcher",4]],[["Ashton Kutcher",2]],[["Ashton Kutcher",4]],[["Ashton Kutcher",8]]]}
+{"id":188640,"claim":"Foot Locker operates in only 11 countries.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Foot Locker",0]]]}
+{"id":80468,"claim":"See You on the Other Side was involved with the production team of The Truman Show.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":185174,"claim":"You Only Live Twice is a Bond film.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["You Only Live Twice (film)",0]],[["You Only Live Twice (film)",0]],[["You Only Live Twice (film)",2]],[["You Only Live Twice (film)",8],["SPECTRE",0]],[["You Only Live Twice (film)",12]]]}
+{"id":149160,"claim":"Billboard Dad only stars men.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Billboard Dad",0]]]}
+{"id":90455,"claim":"Nero's death sparked a brief period of world wars.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":49740,"claim":"The Bee Gees wrote music.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Bee Gees",2]]]}
+{"id":207259,"claim":"Obesity and endometrial cancer have nothing to do with each other.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Endometrial cancer",7]]]}
+{"id":192852,"claim":"Ian Brennan only works in live entertainment.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":216784,"claim":"The Siege of Smyrna involved Timur.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Timur",21]]]}
+{"id":83955,"claim":"The American Civil War lasted 4 decades.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["American Civil War",0]]]}
+{"id":145961,"claim":"Veep has multiple fans.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":66843,"claim":"NXT Tag Team Championship is a professional wrestling tournament.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["NXT Tag Team Championship",0]]]}
+{"id":214271,"claim":"DJ Quik's real name is DJ Quik.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["DJ Quik",0]]]}
+{"id":73345,"claim":"NXT Tag Team Championship was produced by World Wrestling Entertainment, Inc.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":15167,"claim":"Tim Roth is a director.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Tim Roth",0]],[["Tim Roth",8],["The War Zone",0]]]}
+{"id":177532,"claim":"Brick Mansions is a only a book.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Brick Mansions",0]],[["Brick Mansions",0]],[["Brick Mansions",1]],[["Brick Mansions",5]],[["Brick Mansions",6]],[["Brick Mansions",0]],[["Brick Mansions",0]],[["Brick Mansions",1]]]}
+{"id":50426,"claim":"Chaka Khan is a musician with more than 400 singles.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":51107,"claim":"The Indian Army is a military force.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Indian Army",0],["Army",3],["Army",0]],[["Indian Army",1],["Army",3],["Army",0]],[["Indian Army",3],["Army",3],["Army",0]],[["Indian Army",4],["Army",3],["Army",0]],[["Indian Army",7],["Army",3],["Army",0]],[["Indian Army",8],["Operation Surya Hope",13]],[["Indian Army",15],["Army",3],["Army",0]],[["Indian Army",16],["Volunteer military",0]],[["Indian Army",17]]]}
+{"id":101932,"claim":"Firefox is a piece of hardware.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Firefox",0],["Web browser",0]],[["Firefox",0],["Web browser",0]]]}
+{"id":202796,"claim":"Despicable Me 2 was written by Cinco Paul in 2014.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":20120,"claim":"Rob Sheridan was born in 1979.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Rob Sheridan",0]]]}
+{"id":40475,"claim":"The Hunger Games is a thought process.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["The Hunger Games (novel)",0]],[["The Hunger Games (novel)",9]],[["The Hunger Games (novel)",13]],[["The Hunger Games (novel)",12]],[["The Hunger Games (novel)",14]],[["The Hunger Games (novel)",16]]]}
+{"id":167465,"claim":"Cadet Kelly stars Hilary Duff as the main character.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":94779,"claim":"Petyr Baelish is nicknamed Littlefinger.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Petyr Baelish",0]]]}
+{"id":90666,"claim":"Star Trek: Discovery is a movie.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Star Trek: Discovery",0]]]}
+{"id":168933,"claim":"The Boeing 767 became the most frequently used airliner for transatlantic flights between South America and Africa.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":63464,"claim":"Henry VIII (TV serial) features Ray Winstone in a leading role.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Henry VIII (TV serial)",5]]]}
+{"id":124669,"claim":"Paramore is retired.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Paramore",1]]]}
+{"id":142194,"claim":"Carol Danvers appears in comic books published by Robert Duvall.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":119558,"claim":"Sebastian Vettel was not a race car driver.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Sebastian Vettel",0]]]}
+{"id":54932,"claim":"Stanley Williams was an inmate in California.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Stanley Williams",5]]]}
+{"id":81791,"claim":"Goldie Hawn was in at least two movies with cowboys.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":178855,"claim":"Dawood Ibrahim is originally from the capital city of the Indian state of Maharashtra.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Dawood Ibrahim",0],["Mumbai",0]]]}
+{"id":128538,"claim":"Starrcade was never broadcast via pay-per-view television.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Starrcade",6]]]}
+{"id":220971,"claim":"The Group of 15 does not include any country that was under UN sanctions.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":90688,"claim":"Kate Walsh appeared on a television drama on ABC.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Kate Walsh (actress)",1]]]}
+{"id":1126,"claim":"Wildfang is a US-based men's apparel company featuring clothing that is tomboyish in style.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Wildfang",0]]]}
+{"id":142317,"claim":"Daredevil was produced by a production company.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":34155,"claim":"Temple Grandin is a 2010 biopic.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Temple Grandin (film)",0]]]}
+{"id":200395,"claim":"Tom DeLonge has only ever lived in Maine.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Tom DeLonge",2]]]}
+{"id":227128,"claim":"New Orleans Pelicans compete the southwest Division of the NBA's Western Championship.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":92429,"claim":"Jewish people turn towards Temple Mount during prayer.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Temple Mount",29]]]}
+{"id":199763,"claim":"Tijuana is located 30 miles outside of the Tijuana metropolitan area.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Tijuana",0]]]}
+{"id":125239,"claim":"Sleipnir appears in Norse brochures.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":87678,"claim":"Civilization IV is a game in the turn-based strategy genre.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Civilization IV",0]]]}
+{"id":82935,"claim":"Matthew Gray Gubler is a magician.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Matthew Gray Gubler",0]]]}
+{"id":66468,"claim":"Parkinson's disease causes akinesia.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":45565,"claim":"Seohyun is a performer.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Seohyun",0]],[["Seohyun",2]],[["Seohyun",3]]]}
+{"id":140067,"claim":"South Island lacks 23 percent of New Zealand's million inhabitants.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["South Island",5]]]}
+{"id":36221,"claim":"Duane Chapman quit being a bail bondsman to be a bounty hunter.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":187212,"claim":"The Hurt Locker is a 2008 thriller film.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["The Hurt Locker",0]]]}
+{"id":211799,"claim":"Brick (film) is a 2006 film only.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Brick (film)",0]]]}
+{"id":37469,"claim":"Hinduism has the ritual of Rajasuya.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":59964,"claim":"Civilization IV received high ratings.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Civilization IV",12]]]}
+{"id":60819,"claim":"Andrew Kevin Walker was shunned by the BAFTA for his screenwriting.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Andrew Kevin Walker",1]],[["Andrew Kevin Walker",0]],[["Andrew Kevin Walker",0]],[["Andrew Kevin Walker",1]],[["Andrew Kevin Walker",0]],[["Andrew Kevin Walker",0]],[["Andrew Kevin Walker",1]]]}
+{"id":190078,"claim":"Terrence Howard plays Iron Man.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":194795,"claim":"The marriage of two actors was caused by Fortunes of War.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Fortunes of War (TV series)",2]]]}
+{"id":141942,"claim":"Pink is an American singer who won 21 Grammy awards.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Pink (singer)",22]]]}
+{"id":131848,"claim":"Garden State was at the dead body.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":191892,"claim":"Padua is the political hub of the area.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Padua",1]]]}
+{"id":38708,"claim":"The series finale of Make It or Break It is ending on its 4th season.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Make It or Break It",8]]]}
+{"id":111558,"claim":"Advertising is a message that is freely taken from a source.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":181883,"claim":"Princess Mononoke is a film.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Princess Mononoke",0]]]}
+{"id":173045,"claim":"Barcelona is the capitol city of New Jersey.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Barcelona",0],["Trenton, New Jersey",0]]]}
+{"id":129985,"claim":"Eric Bana is a dancer.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":13758,"claim":"Murda Beatz is a record producer.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Murda Beatz",0]]]}
+{"id":91963,"claim":"The Icelandic Coast Guard is rarely performs a service.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Icelandic Coast Guard",0]]]}
+{"id":126231,"claim":"The Bee Gees wrote diaries.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":171503,"claim":"Jiang Wen was born on January 5, 1963.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Jiang Wen",0]]]}
+{"id":177161,"claim":"Invasion literature was niche genre with a lack of political impact in Britain.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Invasion literature",3]]]}
+{"id":140556,"claim":"Kleshas cloud the soul.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":178328,"claim":"Al Jardine is a rhythm guitarist.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Al Jardine",1]]]}
+{"id":169018,"claim":"Manmohan Singh was the third Sikh in office.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Manmohan Singh",1]],[["Manmohan Singh",1]]]}
+{"id":203180,"claim":"Polynesian languages include several speakers.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":36141,"claim":"Lucy Hale is an actress and singer.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Lucy Hale",0]]]}
+{"id":66633,"claim":"Augustus probably did not die from natural causes.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Augustus",42]]]}
+{"id":21353,"claim":"Adidas designs cars.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}
+{"id":146910,"claim":"Caroline Kennedy served as an ambassador.","label":"TRUE","fever_label":"SUPPORTS","evidence_sets":[[["Caroline Kennedy",0]],[["Caroline Kennedy",17]]]}
+{"id":109234,"claim":"Chris Benoit's maiden name is Michael.","label":"FALSE","fever_label":"REFUTES","evidence_sets":[[["Chris Benoit",0]]]}
+{"id":193865,"claim":"Barry Van Dyke is the last son of Dick Van Dyke.","label":"NOT_ENOUGH_INFO","fever_label":"NOT ENOUGH INFO","evidence_sets":[]}

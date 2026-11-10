@@ -1,0 +1,73 @@
+{
+  "run_id": "20261108-235153_bench-fever-team_7b263c",
+  "mode": "team",
+  "dataset": "fever",
+  "tier": "flash",
+  "backend": "bedrock",
+  "model": "qwen.qwen3-235b-a22b-2507",
+  "judge": "llm",
+  "searchers": [
+    "kb"
+  ],
+  "n": 45,
+  "results_file": "/Users/sajidansari/Documents/AI_PROJECTS/agentic-ai-projects/1-fact-checker/results/20261108-235153_bench-fever-team_7b263c.jsonl",
+  "report": {
+    "n": 45,
+    "accuracy": 0.6444444444444445,
+    "macro_f1": 0.5854259832588006,
+    "per_class": {
+      "TRUE": {
+        "precision": 0.7368421052631579,
+        "recall": 0.9333333333333333,
+        "f1": 0.8235294117647058,
+        "support": 15
+      },
+      "FALSE": {
+        "precision": 0.6190476190476191,
+        "recall": 0.8666666666666667,
+        "f1": 0.7222222222222222,
+        "support": 15
+      },
+      "NOT_ENOUGH_INFO": {
+        "precision": 0.5,
+        "recall": 0.13333333333333333,
+        "f1": 0.2105263157894737,
+        "support": 15
+      }
+    },
+    "confusion": {
+      "TRUE": {
+        "TRUE": 14,
+        "FALSE": 0,
+        "NOT_ENOUGH_INFO": 0,
+        "ERROR": 1
+      },
+      "FALSE": {
+        "TRUE": 0,
+        "FALSE": 13,
+        "NOT_ENOUGH_INFO": 2,
+        "ERROR": 0
+      },
+      "NOT_ENOUGH_INFO": {
+        "TRUE": 5,
+        "FALSE": 8,
+        "NOT_ENOUGH_INFO": 2,
+        "ERROR": 0
+      }
+    }
+  },
+  "errors": 1,
+  "citations_total": 72,
+  "fake_citation_rate": 0.013888888888888888,
+  "fever_score": 0.5555555555555556,
+  "fever_score_page": 0.6444444444444445,
+  "gold_page_cited": 0.9,
+  "kb_citation_precision": 0.5294117647058824,
+  "avg_steps": 1.2,
+  "avg_latency_s": 11.981333333333332,
+  "avg_cost_usd": 0.0012170888888888888,
+  "total_cost_usd": 0.054769,
+  "cost_complete": true,
+  "avg_input_tokens": 1520.0444444444445,
+  "avg_output_tokens": 1003.0444444444445
+}

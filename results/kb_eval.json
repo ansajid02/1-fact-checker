@@ -1,0 +1,25 @@
+{
+  "n_claims": 200,
+  "meta": {
+    "n_chunks": 11172,
+    "window": 3,
+    "embed_backend": null,
+    "embed_model": null
+  },
+  "results": {
+    "bm25": {
+      "page_recall": {
+        "1": 0.755,
+        "3": 0.95,
+        "5": 0.97,
+        "10": 0.975
+      },
+      "evidence_recall": {
+        "1": 0.62,
+        "3": 0.815,
+        "5": 0.87,
+        "10": 0.9
+      }
+    }
+  }
+}
