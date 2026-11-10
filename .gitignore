@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+traces/
+data/raw/
+data/cache/
+data/kb/
+data/lora/
+*.part
+.DS_Store
+published/

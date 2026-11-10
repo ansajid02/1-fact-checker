@@ -1,0 +1,112 @@
+PROJECT 1 - RESEARCH & FACT-CHECKER (Arabic + English)
+======================================================
+Build first. Self-contained: it has its own copy of the core code (agentcore/); see README.md.
+Time: 3-4 weeks part-time.
+
+
+WHAT IT DOES
+------------
+Give it a claim or a short article, in Arabic or English.
+It finds evidence, decides TRUE / FALSE / NOT ENOUGH INFO for each claim, and writes a short
+report with citations.
+
+Example:  "The Burj Khalifa was completed in 2015."
+Answer:   FALSE - completed in 2010 (source: Wikipedia, "Burj Khalifa", paragraph 1)
+
+
+FLOW
+----
+  claim / article (AR or EN)
+        |
+        v
+  [Planner]  splits the text into separate checkable claims, detects the language
+        |
+        v  (runs in parallel)
+  [Wikipedia searcher]   [Paper searcher (arXiv/OpenAlex)]   [Knowledge base searcher (RAG)]
+        |                         |                                   |
+        +-------------------------+-----------------------------------+
+        v
+  [Reader]   pulls the exact sentences that support or contradict each claim
+        |
+        v
+  [Judge]    TRUE / FALSE / NOT ENOUGH INFO + confidence (0-1)
+        |      if confidence < 0.6 -> back to searchers for one more round (max 2)
+        v
+  [Writer]   short report with citations, in the user's language
+        |
+        v
+  [Me: approve / edit / reject]  before the verdict is "published"
+
+
+AGENTS
+------
+Planner      - splits claims, detects Arabic/English
+Searchers    - Wikipedia (EN + AR), papers, local knowledge base; run in parallel
+Reader       - extracts evidence sentences with their source
+Judge        - verdict + confidence; asks for more evidence if unsure
+Writer       - final report with citations
+Baseline     - ONE single agent with all the same tools (for comparison)
+
+
+DATA
+----
+FEVER       - English claims labelled SUPPORTS / REFUTES / NOT ENOUGH INFO (main benchmark)
+HotpotQA    - multi-step questions with answers (research mode)
+SciFact     - scientific claims with evidence
+AraFacts    - Arabic fact-checks (verify availability)
+Wikipedia API (English + Arabic), arXiv / OpenAlex APIs
+
+
+AI CONCEPTS (star concepts of this project)
+-------------------------------------------
+- LLM layer: Google Vertex AI (Gemini Flash / Pro), plus local Ollama for the LoRA model
+                                                               (agentcore/)
+- Structured output with Pydantic                              (agentcore/)
+- Tracing: tokens, cost, latency per call                      (agentcore/)
+- RAG: Vertex AI multilingual embeddings + BM25 keyword search, fused, reranked, with citations
+- Parallel agents (searchers)
+- Verifier loop (judge asks for more evidence)
+- Hallucination control: every citation must point to a real sentence
+- Evals: accuracy on FEVER, single agent vs team
+- LoRA: fine-tune a small model as the judge (claim + evidence -> verdict)
+
+
+BUILD STEPS
+-----------
+[ ] 1. Setup: agent-lab Python project (uv), agentcore/ folder, LLM login (see PLAN.txt section 8)
+[ ] 2. agentcore/llm: Vertex AI client (google-genai SDK) + model tiers (Flash / Pro) + structured
+       output (Gemini JSON schema mode -> Pydantic) + tracing (tokens, cost, latency);
+       a second backend for local Ollama, used later by the LoRA model
+[ ] 3. Tools: wikipedia_search (EN/AR), paper_search, fetch_page; return compact JSON
+[ ] 4. Load a FEVER sample (e.g. 300 claims) as the test set
+[ ] 5. Single-agent baseline (ReAct) -> verdict JSON -> first accuracy score
+[ ] 6. RAG: local index over downloaded Wikipedia pages (Vertex AI embeddings + BM25 + rerank)
+       Optional extra searcher: Gemini "grounding with Google Search" (compare with my own RAG)
+[ ] 7. Agent team in LangGraph: planner -> parallel searchers -> reader -> judge loop -> writer
+[ ] 8. Human approval step before "publish"
+[ ] 9. Benchmark: single vs team on the same claims (accuracy, cost, time, fake citations)
+[ ] 10. Arabic: Arabic Wikipedia + AraFacts sample; answers in the user's language
+[ ] 11. LoRA on Colab: train a 3B model as the judge on FEVER, serve it with Ollama,
+        compare: base 3B vs LoRA 3B (local, free) vs Gemini (Vertex AI, paid)
+[ ] 12. README with results table + short demo video
+
+
+HOW IT IS SCORED
+----------------
+- Verdict accuracy (vs FEVER labels), per class
+- Citation accuracy: % of citations that really support the verdict
+- Cost and time per claim
+- Same numbers for: single agent (Gemini), team (Gemini), team + LoRA judge (local)
+
+
+DONE WHEN
+---------
+- make check CLAIM="..." gives a cited verdict in Arabic or English
+- make bench prints the single-agent vs team results table
+- LoRA judge model runs locally in Ollama
+
+
+GULF ANGLE
+----------
+Bilingual Arabic/English fact-checking; fighting misinformation is a media and government
+priority in the region. Local LoRA model = data stays on-premises.

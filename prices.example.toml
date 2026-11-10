@@ -1,0 +1,54 @@
+# USD per 1M tokens, used to compute cost in traces and benchmarks.
+# Copy to prices.toml (make setup does this) and fill in the models you set in .env,
+# from https://cloud.google.com/vertex-ai/generative-ai/pricing
+# Models not listed here get cost = unknown (shown as "?" in reports).
+# Thinking tokens are counted as output tokens.
+#
+# [models."<model name exactly as in MODEL_FLASH>"]
+# input = 0.0
+# output = 0.0
+
+[models]
+
+# Claude in Amazon Bedrock. ESTIMATE = Anthropic list price (global endpoint);
+# check https://aws.amazon.com/bedrock/pricing/ (regional endpoints cost +10%).
+[models."anthropic.claude-haiku-5-5"]
+input = 0.10
+output = 0.50
+
+[models."anthropic.claude-sonnet-5-5"]
+input = 2.00
+output = 10.00
+
+[models."anthropic.claude-opus-5-5"]
+input = 4.00
+output = 20.00
+
+# Non-Claude Bedrock models (AWS price list, us-east-1, on-demand standard, 2026-10-12)
+[models."qwen.qwen3-235b-a22b-2507"]
+input = 0.22
+output = 0.88
+
+[models."qwen.qwen3-next-80b-a3b-instruct"]
+input = 0.14
+output = 1.20
+
+[models."google.gemma-4-31b"]
+input = 0.14
+output = 0.40
+
+[models."zai.glm-4.7-flash"]
+input = 0.07
+output = 0.40
+
+[models."mistral.mistral-large-3-675b-instruct"]
+input = 0.50
+output = 1.50
+
+[models."openai.gpt-oss-120b"]
+input = 0.15
+output = 0.60
+
+[models."deepseek.v3.2"]
+input = 0.62
+output = 1.85
