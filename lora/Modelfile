@@ -1,0 +1,13 @@
+# Ollama model for the LoRA judge. Build with `make ollama-judge` (from 1-fact-checker/).
+# Ollama stores models system-wide (~/.ollama), so this is installed once and shared.
+FROM ./factjudge-Q4_K_M.gguf
+
+TEMPLATE """{{- if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{- range .Messages }}<|im_start|>{{ .Role }}
+{{ .Content }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+PARAMETER temperature 0
+PARAMETER num_ctx 4096
+PARAMETER stop "<|im_end|>"
