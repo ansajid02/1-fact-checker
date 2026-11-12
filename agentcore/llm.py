@@ -308,6 +308,12 @@ def _model_name(backend: str, tier: Tier, model: str | None) -> str:
 _FENCE = re.compile(r"^\s*```(?:json)?\s*(.*?)\s*```\s*$", re.DOTALL)
 
 
+def _was_cut_off(finish_reason: str | None) -> bool:
+    """True if the reply stopped at the token limit (OpenAI 'length', Claude 'max_tokens', Vertex MAX_TOKENS)."""
+    reason = str(finish_reason or "").lower()
+    return reason == "length" or "max_tokens" in reason
+
+
 def _clean_json(text: str) -> str:
     m = _FENCE.match(text)
     return m.group(1) if m else text.strip()
@@ -341,11 +347,17 @@ def generate(
     json_schema = schema.model_json_schema() if schema else None
     current_prompt = prompt
     last_error: Exception | None = None
+    # Some models under constrained JSON decoding (seen with Qwen on Bedrock) get stuck emitting
+    # whitespace after a string value until max_tokens, so the JSON is cut off. Retrying the same
+    # request repeats the loop, so after a cut-off we retry WITHOUT response_format, schema in the prompt.
+    constrained = True
 
     for attempt in range(retries + 1):
         with trace.span("llm", agent, backend=backend, model=model_name, tier=tier,
-                        attempt=attempt, schema=schema.__name__ if schema else None) as sp:
-            raw = call(model_name, current_prompt, system, json_schema, temperature, max_output_tokens)
+                        attempt=attempt, schema=schema.__name__ if schema else None,
+                        constrained=constrained if schema else None) as sp:
+            raw = call(model_name, current_prompt, system, json_schema if constrained else None,
+                       temperature, max_output_tokens)
             sp.update(
                 input_tokens=raw.input_tokens,
                 output_tokens=raw.output_tokens,
@@ -362,9 +374,17 @@ def generate(
             except (ValidationError, json.JSONDecodeError, ValueError) as e:
                 last_error = e
                 sp["schema_error"] = str(e)[:500]
-        current_prompt = (
-            f"{prompt}\n\n---\nYour previous reply did not match the required JSON schema.\n"
-            f"Error: {str(last_error)[:1500]}\nReply again with valid JSON only."
-        )
+                if _was_cut_off(raw.finish_reason):
+                    constrained = False
+        if constrained:
+            current_prompt = (
+                f"{prompt}\n\n---\nYour previous reply did not match the required JSON schema.\n"
+                f"Error: {str(last_error)[:1500]}\nReply again with valid JSON only."
+            )
+        else:
+            current_prompt = (
+                f"{prompt}\n\n---\nReply with ONE compact JSON object, nothing else, that matches this "
+                f"JSON schema:\n{json.dumps(json_schema, separators=(',', ':'))}"
+            )
 
     raise LLMError(f"{agent}: no valid {schema.__name__} after {retries + 1} attempts: {last_error}")

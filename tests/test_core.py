@@ -42,6 +42,25 @@ def test_retry_on_invalid_json(monkeypatch):
     assert "schema_error" in events[0] and "schema_error" not in events[1]
 
 
+def test_cut_off_reply_retries_without_constrained_decoding(monkeypatch):
+    """Qwen on Bedrock can loop on whitespace under response_format until max_tokens."""
+    calls = []
+
+    def call(model, prompt, system, json_schema, temperature, max_tokens):
+        calls.append({"prompt": prompt, "schema": json_schema})
+        if json_schema:
+            return RawResult(text='{"value": 7' + " " * 50, model=model, input_tokens=10,
+                             output_tokens=4096, finish_reason="length")
+        return RawResult(text='```json\n{"value": 7}\n```', model=model, input_tokens=10, output_tokens=5)
+
+    monkeypatch.setitem(llm.BACKENDS, "fake", call)
+    with trace.collect() as events:
+        assert llm.generate("q", schema=Answer, backend="fake").value == 7
+    assert calls[0]["schema"] is not None and calls[1]["schema"] is None
+    assert '"value"' in calls[1]["prompt"] and "JSON schema" in calls[1]["prompt"]
+    assert events[0]["constrained"] is True and events[1]["constrained"] is False
+
+
 def test_gives_up_after_retries(monkeypatch):
     call, _ = fake_backend(["nope", "still nope"])
     monkeypatch.setitem(llm.BACKENDS, "fake", call)

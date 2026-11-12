@@ -37,6 +37,9 @@ CONFIDENCE_THRESHOLD = 0.6
 MAX_ROUNDS = 2
 MAX_CLAIMS = 5
 READER_MAX_SENTENCES = 60
+# 6 quoted sentences need ~1,000 tokens. A lower cap makes a stuck (whitespace-looping) reply fail
+# fast and cheap, and llm.generate then retries without constrained decoding.
+READER_MAX_OUTPUT_TOKENS = 2000
 PUBLISHED_DIR = PROJECT_ROOT / "published"
 
 
@@ -312,7 +315,7 @@ def reader(task: ReadTask) -> dict:
         return {"readings": [Reading(claim_id=task["claim_id"], round=task["round"], evidence=[], n_candidates=0)]}
     out = llm.generate(f"CLAIM: {claim.text}\n(English: {claim.english})\n\nSENTENCES:\n{render_docs(docs)}",
                        schema=ReaderOut, system=READER_SYSTEM, tier=cfg.tier, backend=cfg.backend,
-                       agent="team.reader")
+                       agent="team.reader", max_output_tokens=READER_MAX_OUTPUT_TOKENS)
     items = out.evidence[:6]
     checked = verify([Citation(source_id=i.source_id, sent_idx=i.sent_idx, quote=i.quote) for i in items], store)
     meta = {d.source_id: d for d in docs}
