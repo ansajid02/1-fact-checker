@@ -17,7 +17,7 @@ from agentcore import llm
 
 from .citations import EvidenceStore, verify
 from .text import is_arabic
-from .schemas import CheckResult, Document, SearchHit, VerdictDraft
+from .schemas import LABEL_RULES, CheckResult, Document, SearchHit, VerdictDraft
 from .tools import SEARCHER_TOOLS, ToolError, fetch_page, paper_search, tool_docs, wikipedia_search
 
 MAX_STEPS = 8
@@ -43,11 +43,7 @@ Method: search Wikipedia for the main entity, fetch the most relevant page, read
 Use lang "ar" for Arabic claims (and English Wikipedia as a fallback). Use paper_search only
 for scientific or medical claims. Do not repeat an identical call.
 
-Labels:
-- TRUE: the evidence you read supports the claim.
-- FALSE: the evidence you read contradicts the claim.
-- NOT_ENOUGH_INFO: you could not find evidence that settles it either way.
-"""
+""" + LABEL_RULES + "\n"
 ALL_SEARCHERS = ["wiki", "kb", "papers"]
 SYSTEM = SYSTEM_TEMPLATE.format(tools=tool_docs(ALL_SEARCHERS))
 

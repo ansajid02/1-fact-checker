@@ -28,7 +28,7 @@ from agentcore import approval, llm
 from . import judge_lora
 from .citations import EvidenceStore, verify
 from .paths import PROJECT_ROOT
-from .schemas import CheckedCitation, CheckResult, Citation, Document, Label, Lang
+from .schemas import LABEL_RULES, CheckedCitation, CheckResult, Citation, Document, Label, Lang
 from .text import is_arabic, normalize
 from .tools import AccessBlocked, ToolError, fetch_page, paper_search, wikipedia_search
 
@@ -325,9 +325,11 @@ def reader(task: ReadTask) -> dict:
 
 # ================================================================ judge
 
-JUDGE_SYSTEM = """You are the judge of a fact-checking team. Decide if the claim is TRUE (the evidence
-supports it), FALSE (the evidence contradicts it) or NOT_ENOUGH_INFO (the evidence does not settle it).
-Use ONLY the numbered evidence, never your own knowledge. Cite evidence by number.
+JUDGE_SYSTEM = f"""You are the judge of a fact-checking team. Decide if the claim is TRUE, FALSE or
+NOT_ENOUGH_INFO. Use ONLY the numbered evidence, never your own knowledge. Cite evidence by number.
+
+{LABEL_RULES}
+
 confidence: how sure you are (0-1). If below 0.6, suggest up to 2 follow-up searches."""
 
 

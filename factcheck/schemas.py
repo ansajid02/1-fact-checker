@@ -10,6 +10,22 @@ Label = Literal["TRUE", "FALSE", "NOT_ENOUGH_INFO"]
 LABELS: list[str] = ["TRUE", "FALSE", "NOT_ENOUGH_INFO"]
 Lang = Literal["en", "ar"]
 
+# Shared by the single agent and the team judge. Without these rules the model treats
+# "not mentioned" as FALSE and partial matches as TRUE, and almost never says NOT_ENOUGH_INFO.
+LABEL_RULES = """How to choose the label. Check EVERY part of the claim (who, what, when, where, numbers,
+words like "only", "first", "never"):
+- TRUE: the evidence explicitly states every part of the claim. A partial match is not enough:
+  evidence "the album was released in 2004" does not support "the album was released in March 2004".
+- FALSE: the evidence explicitly states something that cannot be true at the same time as the claim,
+  e.g. a different date or number for the same event.
+- NOT_ENOUGH_INFO: everything else, in particular when
+  - one part of the claim is not mentioned in the evidence, even if the rest matches;
+  - the evidence describes the subject differently but both could be true
+    (being described as a novelist does not mean someone is not also a poet);
+  - the claim sounds unlikely or absurd, but no evidence directly contradicts it;
+  - deciding would need your own knowledge or a guess.
+Not mentioned is NOT the same as contradicted."""
+
 
 # ---------------------------------------------------------------- tool outputs
 
