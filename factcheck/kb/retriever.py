@@ -62,7 +62,9 @@ class KnowledgeBase:
         self.meta = json.loads(META.read_text(encoding="utf-8"))
         self.bm25 = BM25Okapi([normalize(c.text).split() or ["_"] for c in self.chunks])
         self.vectors = np.load(VECTORS) if VECTORS.exists() else None
-        self.mode = mode or os.environ.get("KB_MODE", "hybrid")
+        # Default: hybrid when embeddings exist, else plain BM25 (no warning, nothing is missing).
+        # Warn only when hybrid/dense was asked for explicitly but the embeddings were never built.
+        self.mode = mode or os.environ.get("KB_MODE") or ("hybrid" if self.vectors is not None else "bm25")
         if self.mode in ("hybrid", "dense") and self.vectors is None:
             console.print("[yellow]KB has no embeddings: using BM25 only (run `make kb` with credits).[/]")
             self.mode = "bm25"
