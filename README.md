@@ -81,12 +81,12 @@ make kb-eval        # retrieval recall
 | `make check CLAIM="..."` | agent team → report → your approval → `published/` |
 | `make check-single CLAIM="..."` | single-agent baseline |
 | `make bench MODE=single\|team [DATASET=fever\|arafacts] [LIMIT=30]` | benchmark; per-claim rows + summary in `results/` (`--resume` continues) |
-| `make bench MODE=team JUDGE=lora:factjudge` | team with the local LoRA judge |
+| `make bench MODE=team JUDGE=lora:factjudge` | team with the local LoRA judge (🚧 in progress) |
 | `make compare` | one table of all runs → `results/RESULTS.md` and the section below |
-| `make lora-data` → Colab → `make ollama-judge` → `make judge-eval` | LoRA judge pipeline (below) |
+| `make lora-data` → Colab → `make ollama-judge` → `make judge-eval` | LoRA judge pipeline (below, 🚧 in progress) |
 | `SEARCHERS=kb` (any command) | restrict searchers, e.g. `kb` only (no live Wikipedia) |
 | `TIER=pro`, `JUDGE=llm:pro`, `BACKEND=bedrock\|openrouter\|vertex\|ollama` | switch model tier / judge / backend |
-| `make test` | 37 offline tests (fake LLM, no network, no cost) |
+| `make test` | 39 offline tests (fake LLM, no network, no cost) |
 
 ## Data and licences
 
@@ -126,10 +126,17 @@ Hybrid (BM25 + `baai/bge-m3` embeddings) and LLM-rerank rows appear after `make 
 
 ### Judges on fixed evidence (step 11)
 `make judge-eval` compares judges on the same 297 claims with the same evidence. This isolates the judge, so
-differences come from the judge alone: Gemini (cloud, paid) vs base Qwen3-4B (local) vs LoRA Qwen3-4B (local).
-_Not run yet._
+differences come from the judge alone: cloud LLM judge (paid) vs base Qwen3-4B (local) vs LoRA Qwen3-4B (local).
+_Not run yet: the LoRA judge is in progress._
 
-## LoRA judge (data stays on-premises)
+## LoRA judge (🚧 in progress)
+
+> **Status:** training data is built and the Colab notebook, Ollama Modelfile and judge code are ready.
+> The model has **not been trained or evaluated yet**, so there are no LoRA results in this README.
+
+The idea: a small local model (Qwen3-4B + LoRA) fine-tuned to do only the judge's job, so verdicts can be
+made on-premises without sending evidence to a cloud model.
+
 
 1. `make lora-data` → `data/lora/train.jsonl` (4,255), `val.jsonl` (223), `judge_eval.jsonl` (297), balanced labels.
    The evidence format is identical for training and evaluation, and comes from `factcheck/judge_lora.py`.
@@ -156,7 +163,7 @@ trigger with it.
 | 8 Human approval before publish (`interrupt` → approve / edit / reject) | ✅ tested offline; needs an interactive terminal |
 | 9 Benchmark single vs team (+ FEVER score, fake citations, cost, time) | ✅ pipeline verified on 3 claims; full runs not done (credits) |
 | 10 Arabic: AR Wikipedia, AR queries, AR reports, AraFacts sample | ✅ verified live on one Arabic claim (AR Wikipedia citation, AR report); AraFacts benchmark not run |
-| 11 LoRA judge: data, Colab notebook, Ollama Modelfile, judge comparison | ✅ data built; training/eval needs Colab + Ollama |
+| 11 LoRA judge: data, Colab notebook, Ollama Modelfile, judge comparison | 🚧 in progress: data, notebook and Modelfile ready; model not trained or evaluated yet |
 | 12 README + demo | ✅ README; results fill in via `make compare`; demo video to record |
 
 ## Honest caveats
@@ -174,7 +181,7 @@ trigger with it.
 1. `make check CLAIM="The Burj Khalifa was completed in 2015."`: parallel search, FALSE with citations, approve → `published/`.
 2. The same claim in Arabic: `make check CLAIM="اكتمل بناء برج خليفة في عام 2015"`, which gives an Arabic report.
 3. A claim with a hallucinated quote caught (show `✗ quote does not match` in `make check-single`).
-4. `make compare` table, and `make judge-eval` (Gemini vs local LoRA).
+4. `make compare` table (and later `make judge-eval`, cloud judge vs local LoRA, once the LoRA judge is trained).
 
 ## Layout
 ```
