@@ -1,0 +1,72 @@
+{
+  "run_id": "20261112-205633_bench-fever-single_e4ab36",
+  "mode": "single",
+  "dataset": "fever",
+  "tier": "flash",
+  "backend": "bedrock",
+  "model": "qwen.qwen3-235b-a22b-2507",
+  "judge": "llm",
+  "searchers": [
+    "wiki",
+    "kb",
+    "papers"
+  ],
+  "n": 300,
+  "results_file": "/Users/sajidansari/Documents/AI_PROJECTS/agentic-ai-projects/1-fact-checker/results/20261112-205633_bench-fever-single_e4ab36.jsonl",
+  "report": {
+    "n": 300,
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.6260780435483813,
+    "per_class": {
+      "TRUE": {
+        "precision": 0.7154471544715447,
+        "recall": 0.88,
+        "f1": 0.789237668161435,
+        "support": 100
+      },
+      "FALSE": {
+        "precision": 0.5958904109589042,
+        "recall": 0.87,
+        "f1": 0.7073170731707317,
+        "support": 100
+      },
+      "NOT_ENOUGH_INFO": {
+        "precision": 0.8064516129032258,
+        "recall": 0.25,
+        "f1": 0.38167938931297707,
+        "support": 100
+      }
+    },
+    "confusion": {
+      "TRUE": {
+        "TRUE": 88,
+        "FALSE": 9,
+        "NOT_ENOUGH_INFO": 3
+      },
+      "FALSE": {
+        "TRUE": 10,
+        "FALSE": 87,
+        "NOT_ENOUGH_INFO": 3
+      },
+      "NOT_ENOUGH_INFO": {
+        "TRUE": 25,
+        "FALSE": 50,
+        "NOT_ENOUGH_INFO": 25
+      }
+    }
+  },
+  "errors": 0,
+  "citations_total": 502,
+  "fake_citation_rate": 0.22111553784860558,
+  "fever_score": 0.09,
+  "fever_score_page": 0.43,
+  "gold_page_cited": 0.575,
+  "kb_citation_precision": 0.8,
+  "avg_steps": 3.2733333333333334,
+  "avg_latency_s": 8.526333333333334,
+  "avg_cost_usd": 0.0020935529999999997,
+  "total_cost_usd": 0.6280659,
+  "cost_complete": true,
+  "avg_input_tokens": 7463.683333333333,
+  "avg_output_tokens": 513.1166666666667
+}

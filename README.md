@@ -118,8 +118,10 @@ Hybrid (BM25 + `baai/bge-m3` embeddings) and LLM-rerank rows appear after `make 
 <!-- RESULTS:START -->
 | dataset | mode | model | judge | searchers | n | accuracy | macro-F1 | FEVER score | gold page cited | fake citations | $ / claim | s / claim | errors |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| fever | single | qwen.qwen3-235b-a22b-2507 | llm | wiki,kb,papers | 30 | 63.3% | 0.563 | 3.3% | 60.0% | 29.3% | 0.0017 | 9.2 | 0 |
-| fever | team | qwen.qwen3-235b-a22b-2507 | llm | wiki,kb,papers | 30 | 56.7% | 0.478 | 40.0% | 85.0% | 0.0% | 0.0017 | 13.8 | 1 |
+| fever | team | qwen.qwen3-235b-a22b-2507 | llm | wiki,kb,papers | 300 | 69.3% | 0.663 | 57.0% | 90.0% | 1.9% | 0.0015 | 12.2 | 0 |
+| fever | single | qwen.qwen3-235b-a22b-2507 | llm | wiki,kb,papers | 300 | 66.7% | 0.626 | 9.0% | 57.5% | 22.1% | 0.0021 | 8.5 | 0 |
+| arafacts | single | qwen.qwen3-235b-a22b-2507 | llm | wiki,kb,papers | 125 | 30.4% | 0.308 | - | - | 5.6% | 0.0037 | 15.5 | 0 |
+| arafacts | team | qwen.qwen3-235b-a22b-2507 | llm | wiki,kb,papers | 125 | 28.0% | 0.284 | - | - | 6.2% | 0.0025 | 18.2 | 0 |
 
 `?` after a cost = some calls had no known price. FEVER score = label correct and a complete gold evidence set cited (KB citations only).
 <!-- RESULTS:END -->
@@ -157,12 +159,12 @@ trigger with it.
 | 1-2 Setup, `agentcore` (LLM layer, structured output, tracing, approval, evals, embeddings) | ✅ done; live calls verified on OpenRouter |
 | 3 Tools: Wikipedia EN/AR, OpenAlex, fetch page | ✅ all verified live (EN + AR Wikipedia, OpenAlex) |
 | 4 FEVER test set | ✅ 300 claims, balanced |
-| 5 Single-agent baseline | ✅ verified live on single claims; full benchmark not run (credits) |
+| 5 Single-agent baseline | ✅ full benchmark run: FEVER 300 + AraFacts 125 |
 | 6 RAG: KB from FEVER dump, BM25 + embeddings + RRF + optional LLM rerank | ✅ KB built, BM25 recall measured; embeddings need `make kb` (~$0.02) |
 | 7 Agent team (LangGraph: parallel searchers, reader, judge loop, writer) | ✅ verified live on single claims; tested offline end-to-end |
 | 8 Human approval before publish (`interrupt` → approve / edit / reject) | ✅ tested offline; needs an interactive terminal |
-| 9 Benchmark single vs team (+ FEVER score, fake citations, cost, time) | ✅ pipeline verified on 3 claims; full runs not done (credits) |
-| 10 Arabic: AR Wikipedia, AR queries, AR reports, AraFacts sample | ✅ verified live on one Arabic claim (AR Wikipedia citation, AR report); AraFacts benchmark not run |
+| 9 Benchmark single vs team (+ FEVER score, fake citations, cost, time) | ✅ full runs done (850 claims, 0 errors, ~$1.84 total on Bedrock) |
+| 10 Arabic: AR Wikipedia, AR queries, AR reports, AraFacts sample | ✅ verified live on one Arabic claim (AR Wikipedia citation, AR report); AraFacts benchmark run (125 claims) |
 | 11 LoRA judge: data, Colab notebook, Ollama Modelfile, judge comparison | 🚧 in progress: data, notebook and Modelfile ready; model not trained or evaluated yet |
 | 12 README + demo | ✅ README; results fill in via `make compare`; demo video to record |
 

@@ -1,0 +1,72 @@
+{
+  "run_id": "20261112-211150_bench-arafacts-single_07ca4f",
+  "mode": "single",
+  "dataset": "arafacts",
+  "tier": "flash",
+  "backend": "bedrock",
+  "model": "qwen.qwen3-235b-a22b-2507",
+  "judge": "llm",
+  "searchers": [
+    "wiki",
+    "kb",
+    "papers"
+  ],
+  "n": 125,
+  "results_file": "/Users/sajidansari/Documents/AI_PROJECTS/agentic-ai-projects/1-fact-checker/results/20261112-211150_bench-arafacts-single_07ca4f.jsonl",
+  "report": {
+    "n": 125,
+    "accuracy": 0.304,
+    "macro_f1": 0.3082010582010582,
+    "per_class": {
+      "TRUE": {
+        "precision": 0.6875,
+        "recall": 0.22,
+        "f1": 0.3333333333333333,
+        "support": 50
+      },
+      "FALSE": {
+        "precision": 0.5,
+        "recall": 0.22,
+        "f1": 0.3055555555555556,
+        "support": 50
+      },
+      "NOT_ENOUGH_INFO": {
+        "precision": 0.1839080459770115,
+        "recall": 0.64,
+        "f1": 0.2857142857142857,
+        "support": 25
+      }
+    },
+    "confusion": {
+      "TRUE": {
+        "TRUE": 11,
+        "FALSE": 6,
+        "NOT_ENOUGH_INFO": 33
+      },
+      "FALSE": {
+        "TRUE": 1,
+        "FALSE": 11,
+        "NOT_ENOUGH_INFO": 38
+      },
+      "NOT_ENOUGH_INFO": {
+        "TRUE": 4,
+        "FALSE": 5,
+        "NOT_ENOUGH_INFO": 16
+      }
+    }
+  },
+  "errors": 0,
+  "citations_total": 90,
+  "fake_citation_rate": 0.05555555555555555,
+  "fever_score": null,
+  "fever_score_page": null,
+  "gold_page_cited": null,
+  "kb_citation_precision": null,
+  "avg_steps": 4.752,
+  "avg_latency_s": 15.50232,
+  "avg_cost_usd": 0.00366605888,
+  "total_cost_usd": 0.45825736,
+  "cost_complete": true,
+  "avg_input_tokens": 13374.208,
+  "avg_output_tokens": 822.424
+}
